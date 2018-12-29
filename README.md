@@ -2,7 +2,7 @@
 
 ### Bikeshare Project
 
-### Python code allows user to view summary statistics of bikeshare data in Chicago, New York, and/or D.C.
+### Python code allows user to view summary statistics of bikeshare data in Chicago, New York, and/or D.C. Run function by entering Udacity Python Project in command line. 
 
 ### Files used: chicago.csv, new_york_city.csv, washington.csv
 
