@@ -6,6 +6,14 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
+"""
+HOW TO: User runs Udacity Python Project.py in command. Code will prompt user to provide a 
+number of inputs (described below). User will have option to filter by city, month, and day
+of week. The user will also have the option to view raw data by lines of 5. 
+
+"""
+
+
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
