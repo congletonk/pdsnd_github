@@ -1,15 +1,10 @@
-### Date created
-Include the date you created this project and README file.
+### Date created: December 28, 2018
 
-### Project Title
-Replace the Project Title
+### Bikeshare Project
 
-### Description
-Describe what your project is about and what it does
+### Python code allows user to view summary statistics of bikeshare data in Chicago, New York, and/or D.C. Run function by entering Udacity Python Project in command line. 
 
-### Files used
-Include the files used
+### Files used: chicago.csv, new_york_city.csv, washington.csv
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+### Credits: Huge props to Udacity for providing me with all the resources and instruction I need! Also, stack overflow. 
 

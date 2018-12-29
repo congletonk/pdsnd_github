@@ -6,6 +6,14 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
+"""
+HOW TO: User runs Udacity Python Project.py in command. Code will prompt user to provide a 
+number of inputs (described below). User will have option to filter by city, month, and day
+of week. The user will also have the option to view raw data by lines of 5. 
+
+"""
+
+
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -116,6 +124,8 @@ def time_stats(df):
     count_months = df['month'].value_counts
     popular_month = df.mode()['month'][0]
     popular_month_dt = pd.to_datetime(popular_month)
+
+    #convert month to month name for readability 
     print('The most popular month is:', popular_month_dt.strftime("%B")) 
     
     # TO DO: display the most common day of week
