@@ -116,6 +116,8 @@ def time_stats(df):
     count_months = df['month'].value_counts
     popular_month = df.mode()['month'][0]
     popular_month_dt = pd.to_datetime(popular_month)
+
+    #convert month to month name for readability 
     print('The most popular month is:', popular_month_dt.strftime("%B")) 
     
     # TO DO: display the most common day of week
