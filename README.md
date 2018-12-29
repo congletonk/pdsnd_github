@@ -2,12 +2,9 @@
 
 ### Bikeshare Project
 
-### Description
-Describe what your project is about and what it does
+### Python code allows user to view summary statistics of bikeshare data in Chicago, New York, and/or D.C.
 
-### Files used
-Include the files used
+### Files used: chicago.csv, new_york_city.csv, washington.csv
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+### Credits: Huge props to Udacity for providing me with all the resources and instruction I need! Also, stack overflow. 
 
